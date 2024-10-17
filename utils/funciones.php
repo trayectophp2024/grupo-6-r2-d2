@@ -54,7 +54,7 @@ function buscar_productos($conn, $termino_busqueda)
          ";
 
    // Consultas para buscar en la Peliculas
-   $sqlPeliculas = "SELECT 'peliculas' as tabla, id, titulo, episodio, descripcion, director, año_estreno, duracion, imagen  FROM peliculas
+   $sqlPeliculas = "SELECT 'peliculas' as tabla, id, nombre, episodio, descripcion, director, año_estreno, duracion, imagen  FROM peliculas
             WHERE LOWER(nombre) LIKE '%$termino_busqueda%' 
          ";
 

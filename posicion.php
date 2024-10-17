@@ -48,8 +48,8 @@ echo "</pre>";
                     <img src="img/ImagenesSW/<?= $posicion['imagen'];?>" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title fs-3 fw-bold mb-3"><?= $posicion['nombre']; ?></h5>
-                        <h5 class="card-title text-white fs-6"><?= $posicion['descripcion']; ?></h5>
-                        <a href="posicion_particular.php?posicion=<?= $tabla ?>&id=<?= $posicion['id'] ?>" class="btn btn-primary mt-3">MAS</a>
+                        <h5 class="card-title text-white fs-6"><?= substr($posicion['descripcion'],0,50) ?>...</h5>
+                        <a href="<?= $tabla ?>_particular.php?posicion=<?= $tabla ?>&id=<?= $posicion['id'] ?>" class="btn btn-primary mt-3">MAS</a>
                     </div>
                 </div>
             </div>

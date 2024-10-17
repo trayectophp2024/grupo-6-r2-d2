@@ -30,9 +30,9 @@
                <a class="titulo-1" href="index.php">
                     <h1>Star wars </h1>
                 </a> 
-                <form action="">
+                <form action="busqueda.php">
                     <div class="input-group">
-                        <input type="text" name="" id="search" class="form-control" >
+                        <input type="text" name="q" id="search" class="form-control" >
                         <span class="input-group-text"><i class="fas fa-search"></i></span>
                     </div>
                     
