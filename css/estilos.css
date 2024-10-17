@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background: rgb(8,2,65);
+    background: linear-gradient(0deg, rgba(8,2,65,1) 0%, rgba(66,1,1,1) 100%); 
+    color: aliceblue;
+}
+
+
+
+.header {
+    background-color: #444444;
+    text-transform: uppercase;
+}
+
+.upper-header {
+    padding: 20px;
+}
+
+h1 {
+
+    font-family: "Bakbak One", sans-serif;
+    color: #f8f8f2;
+    font-size: 64px;
+}
+
+.nav-link {
+    font-family: "Chakra Petch", sans-serif;
+    color:#FCC169 ; 
+    font-size: 35px;
+   
+}
+
+.nav-link:hover {
+    color: #FFF;
+}
+
+/* Buscar */
+
+form {
+    margin-left: 30px  ;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    color: #ffffff;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    padding-left: 40px; /* Espacio para el icono */
+}
+
+.form-control::placeholder {
+    color: #FFF; 
+}
+
+.input-group .input-group-text {
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 10px; /* Ajusta la posición del icono */
+}
+
+.input-group .input-group-text i {
+    color: #bdbdbd; 
+}
+
+
+.img {
+    width: 350px;
+}
+
