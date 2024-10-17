@@ -24,10 +24,14 @@ body {
     padding: 20px;
 }
 
+.titulo-1 {
+    text-decoration: none;
+    color: #fcff62;
+}
+
 h1 {
 
     font-family: "Bakbak One", sans-serif;
-    color: #f8f8f2;
     font-size: 64px;
 }
 
@@ -75,6 +79,13 @@ form {
 
 .input-group .input-group-text i {
     color: #bdbdbd; 
+}
+
+.input-group input:focus  {
+    border: none;
+    outline: none;
+    outline: 4px solid darkorange;
+
 }
 
 

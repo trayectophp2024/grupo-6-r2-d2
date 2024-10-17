@@ -26,19 +26,18 @@
 <!-- HEADER -->
 
 <header style="background-color: #1E1E1E;">
-    <div class=" upper-header d-flex justify-content-between " >
-        <a class= "navbar-brand text-warning fw-bold t fs-1" href="index.php">STAR WARS</a>
-        <form action="busqueda.php" method="GET" class="" role="search">
-            <div class="input-group bg-warning mt-3">
-                <span class="input-group-text">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </span>
-                <input class="form-control" name="q" type="search"  aria-label="Search">
-                <button class="boton-color" type="submit">Buscar</button>
-            </div>
-
-        </form>
-    </div>
+<div class="upper-header d-flex align-items-center ">
+               <a class="titulo-1" href="index.php">
+                    <h1>Star wars </h1>
+                </a> 
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" name="" id="search" class="form-control" >
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                    
+                </form>
+        </div>
     <nav>
 
         <div class="d-flex justify-content-around" id="navbarNav">
