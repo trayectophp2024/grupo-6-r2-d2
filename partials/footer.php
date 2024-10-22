@@ -1,4 +1,4 @@
-<footer class="bg-dark mt-4">
+<footer class="bg-dark mt-2">
   <ul class="socials">
     <li><a href="#"><i class="fab fa-facebook-f mt-5"></i></a></li>
     <li><a href="#"><i class="fab fa-twitter mt-5"></i></a></li>
@@ -9,11 +9,9 @@
 
 
 
-
-
-  <p class="py-4 text-center text-white">Mas de Star Wars: </p>
-  <p class="py-4 text-center text-white">TM & Lucasfilm Ltd. All Rights Reserved</p>
-  
+  <div class="d-flex justify-content-around">
+    <p class="text-white ">Mas de Star Wars:</p><P> & Lucasfilm Ltd. All Rights Reserved</P>
+  </div>
 
 </footer>
 

@@ -2,7 +2,7 @@
 
 <main>
 
-        <!-- CARRUSEL -->
+    <!-- CARRUSEL -->
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -31,51 +31,76 @@
         </button>
     </div>
 
+    <br>
+
 
     <!-- CARDS -->
-
-    <div class="container mt-4 mb-4">
-        <div class="row">
-
-            <!-- CARD 1 -->
-
-            <div class="col-4">
-                <div class="card" style="overflow: hidden; max-width: 358px; height: 656px">
-                    <img src="img/card 1.jpg" class="card-img-top"
-                        alt="...">
-                </div>
-            </div>
-
-
-            <!-- CARD 2 -->
-
-            <div class="col-4">
-                <div class="card" style="overflow: hidden ; width: 358px ; height: 656px">
-                    <img src="img/card 2.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-            <!-- CARD 3 -->
-
-
-            <div class="col-4">
-                <div class="card" style="overflow: hidden; width: 358px ; height: 656px">
-                    <img src="img/card 3.jpg" class="card-img-tozp " alt="...">
-                </div>
-
-            </div>
-
-
+     <div class="row">
+    <div class="card">
+        <div class="face front">
+            <img src="img/card 1.jpg" alt="">
+            <h3>STAR WARAS</h3>
         </div>
+        <div class="face back">
+            <h3>STAR WARS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/card 2.jpg" alt="">
+            <h3>STAR WARS</h3>
+        </div>
+        <div class="face back">
+            <h3>STAR WARS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/card 3.jpg" alt="">
+            <h3>STAR WARS</h3>
+        </div>
+        <div class="face back">
+            <h3>STAR WARS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/card 4.jps" alt="">
+            <h3>STAR WARS</h3>
+        </div>
+        <div class="face back">
+            <h3>STAR WARS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
 
     </div>
 
-    </main>
+
+
+
+
 
 
 
 
     <?php require "partials/footer.php" ?>
-
-
-

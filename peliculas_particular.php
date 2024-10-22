@@ -44,12 +44,11 @@ $posiciones = posicion_particular($conn, $tabla, $id);
                 <div class="card-body">
                     <h5 class="card-title"><?= $posicion['nombre'] ?></h5>
                     <p class="card-text"><?= $posicion['descripcion'] ?></p>
-                    <p class="card-text">Especie: <?= $posicion['especie'] ?></p>
-                    <p class="card-text">Planeta Natal: <?= $posicion['planeta_natal'] ?></p>
-                    <p class="card-text">Habilidades: <?= $posicion['habilidades'] ?></p>
-                    <p class="card-text">Arma: <?= $posicion['arma'] ?></p>
-                    <p class="card-text">Actor: <?= $posicion['actor'] ?></p>
-                    <a href="posicion.php?posicion=personajes"  class="btn btn-primary">Volver</a>
+                    <p class="card-text">Episodio: <?= $posicion['episodio'] ?></p>
+                    <p class="card-text">Director: <?= $posicion['director'] ?></p>
+                    <p class="card-text">Año de Estreno: <?= $posicion['año_estreno'] ?></p>
+                    <p class="card-text">Duración: <?= $posicion['duracion'] ?></p>
+                    <a href="posicion.php?posicion=peliculas"  class="btn btn-primary">Volver</a>
                 </div>
             </div>
         </div>
