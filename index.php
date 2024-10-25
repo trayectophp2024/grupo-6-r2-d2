@@ -30,72 +30,67 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+    </main>
     <br>
 
 
     <!-- CARDS -->
-     <div class="row">
-    <div class="card">
+
+    <div class="container">
+     <div class="row  ">
+
+
+   
+    <div class="cartas">
         <div class="face front">
             <img src="img/card 1.jpg" alt="">
-            <h3>STAR WARAS</h3>
+            
         </div>
         <div class="face back">
             <h3>STAR WARS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <p>Treinta años después de haber derrotado al Imperio, una nueva amenaza se cierne sobre la República. El terrible y enigmático guerrero Kylo Ren ha reunido un ejército de leales al Imperio, que se hace llamar la Primera Orden y ataca a la Alianza. La única esperanza para la galaxia es que una recogedora de chatarra, un stromtrooper fugado y un androide llamado BB-8 logren encontrar a tiempo al legendario jedi Luke Skywalker.</p>
             <div class="link">
-                <a href="#">Details</a>
+                <a href="posicion.php?posicion=peliculas">Peliculas</a>
             </div>
         </div>
     </div>
     
 
-    <div class="card">
-        <div class="face front">
-            <img src="img/card 2.jpg" alt="">
-            <h3>STAR WARS</h3>
-        </div>
-        <div class="face back">
-            <h3>STAR WARS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
 
-    <div class="card">
+    <div class="cartas">
         <div class="face front">
             <img src="img/card 3.jpg" alt="">
-            <h3>STAR WARS</h3>
+            
         </div>
         <div class="face back">
             <h3>STAR WARS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <p>La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logra escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa.</p>
             <div class="link">
-                <a href="#">Details</a>
+                <a href="posicion.php?posicion=peliculas">Peliculas</a>
             </div>
         </div>
     </div>
 
-    <div class="card">
+    <div class="cartas">
         <div class="face front">
             <img src="img/card 4.jps" alt="">
-            <h3>STAR WARS</h3>
+            
         </div>
         <div class="face back">
             <h3>STAR WARS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <p>Ahsoka Tano es un personaje ficticio que aparece en la franquicia Star Wars. Presentada como la padawan jedi de Anakin Skywalker, es un personaje principal en la película animada de 2008 Star Wars: The Clone Wars y la serie de televisión posterior.</p>
             <div class="link">
-                <a href="#">Details</a>
+                <a href="posicion.php?posicion=peliculas">Peliculas</a>
             </div>
         </div>
     </div>
 
+
+
+
     </div>
 
-
+    </div>
 
 
 

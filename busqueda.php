@@ -17,7 +17,7 @@ if ($termino_busqueda) {
 
 <?php require "partials/header.php" ?>
 <main class="container">
-    <h1 class="text-center">Resultados de la búsqueda</h1>
+    <h1 class="text-center fs-2">Resultados de la búsqueda:</h1>
 
     <?php if ($termino_busqueda && !empty($posicion)) { ?>
         <div class="row">

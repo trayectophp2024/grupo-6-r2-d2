@@ -51,7 +51,7 @@
 
             <a class="nav-link" href="posicion.php?posicion=peliculas">Peliculas</a>
 
-            <a class="nav-link " href="#">Creditos</a>
+            <a class="nav-link" href="posicion.php?posicion=creditos">Creditos</a>
 
         </div>
 

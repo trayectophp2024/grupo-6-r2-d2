@@ -12,7 +12,8 @@ $tablas = [
     'personajes' => 'personajes',
     'naves' => 'naves',
     'sables' => 'sables',
-    'peliculas' => 'peliculas'
+    'peliculas' => 'peliculas',
+    'creditos'  => 'creditos'
 ];
 
 /* Comprobar si el array existe */
@@ -45,18 +46,37 @@ echo "</pre>";
         <?php foreach ($posicion as $posicion) { ?>
             <div class="col-4 mt-4 mb-4">
                 <div class="" style="width: 18rem;">
-                    <img src="img/ImagenesSW/<?= $posicion['imagen'];?>" class="card-img-top" alt="">
+                    <img src="img/ImagenesSW/<?= $posicion['imagen']; ?>" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title fs-3 fw-bold mb-3"><?= $posicion['nombre']; ?></h5>
-                        <h5 class="card-title text-white fs-6"><?= substr($posicion['descripcion'],0,50) ?>...</h5>
-                        <a href="<?= $tabla ?>_particular.php?posicion=<?= $tabla ?>&id=<?= $posicion['id'] ?>" class="btn btn-primary mt-3">MAS</a>
+                        <h5 class="card-title text-white fs-6"><?= substr($posicion['descripcion'], 0, 50) ?>...</h5>
                     </div>
                 </div>
+
+                <div class="bo mt-3" style="text-align: center">
+                    <a href="<?= $tabla ?>_particular.php?posicion=<?= $tabla ?>&id=<?= $posicion['id'] ?>" class="wrapper">
+                        <div class="text-center ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Mas
+                        </div>
+                    </a>
+                </div>
+
             </div>
 
         <?php } ?>
 
+
+
+
+
     </div>
+
+
 
 </main>
 
