@@ -53,15 +53,15 @@ echo "</pre>";
                     </div>
                 </div>
 
-                <div class="bo mt-3" style="text-align: center">
+                <div class="bo mt-2" style="text-align: center">
                     <a href="<?= $tabla ?>_particular.php?posicion=<?= $tabla ?>&id=<?= $posicion['id'] ?>" class="wrapper">
-                        <div class="text-center ">
+                        <div class="">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
-                            Mas
+                            MAS
                         </div>
                     </a>
                 </div>

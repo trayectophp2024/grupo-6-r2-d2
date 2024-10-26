@@ -1,64 +1,49 @@
 <?php
-require_once "utils/funciones.php";
-require_once "utils/db_connection.php";
-
-/* Capturamos la tabla que viene por GET (URL) */
-/* Coalescing  : operador de fusión de null  */
-$tabla = $_GET['posicion'] ?? false;
-
-
-/* Tablas validas  */
-$tablas = [
-    'personajes' => 'personajes',
-    'naves' => 'naves',
-    'sables' => 'sables',
-    'peliculas' => 'peliculas',
-    'creditos'  => 'creditos'
-];
-
-/* Comprobar si el array existe */
-
-if (!array_key_exists($tabla, $tablas)) {
-    header('Location: error404.php');
-}
-
-// Llamar a la funcion
-
-$posicion = listar_todo($conn, $tabla);
-
-/* echo "<pre>";
-var_dump($categorias);
-echo "</pre>"; 
- */
-
+require "partials/header.php" 
 
 ?>
 
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>video</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-    
-        <h2> </h2>
 
+<body>
+
+    <main id="hero">
+        <div class="starwars">
+            <h2 class="lh-lg mb-5"> DISEÑADO POR EL CURSO DE DESARROLLO WEB: TURNO NOCHE <br>
+                GIMENEZ CRISTALDO, CAMILA <br>
+                MORALES, EDUARDO <br>
+                BARTOLUCCI S. VICENTE<br>
+            </h2>
+            <h2 class="lh-lg mb-5">DESARROLLADO POR EL CURSO DE PROGRAMACION: TURNO TARDE <br>
+                CARLOS FATTURINI BARASSI</h2>
+            <button a href="index.php" class="but" type="inicio">INICIO</button>
+        </div>
+
+        <video muted autoplay loop>
+            <source src="video/Star Wars video.mp4" type="video/mp4">
+        </video>
+
+        <audio controls autoplay loop>
+            <source src="star-wars-main-theme-full.mp3" type="audio/mpeg">
+            <source src="star-wars-main-theme-full.ogv" type="audio/ogg"> 
+        </audio>
+        
+        <div class="capa"></div>
+        
+
+    </main>
 
 </body>
+
 </html>
-
-
-<main class="container"></main>
-
-
-
 
 
 

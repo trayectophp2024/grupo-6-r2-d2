@@ -50,6 +50,9 @@ h1 {
 
 
 
+
+
+
 /* -- BUSCADOR -- */
 
 form {
@@ -91,6 +94,8 @@ form {
     outline: 4px solid darkorange;
 
 }
+
+
 
 
 /* -- CARDS INDEX -- */
@@ -192,7 +197,7 @@ form {
 .bo a{
     position: relative;
     display: inline-block;
-    padding: 25px 30px;
+    padding: 10px 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
@@ -201,7 +206,7 @@ form {
     transition: .3s;
     overflow: hidden;
     margin-right: 70px;
-    height: 30px;
+    height: 20px;
 }
 
 .bo a:hover{
@@ -308,26 +313,81 @@ a span:nth-child(5){
 
 
 
+/* -- creditos -- */
 
 
 
 
+.starwars {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
 
 
+.starwars h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    width: 100rem;
+    color:#FCC169
+}
+
+button {
+    display: inline-block;
+    border: none;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 70px;
+    background-color: #b07a05;
+    font-size: 1rem;
+    color: #1c1c1d;
+    font-weight: 800;
+    transition: 150ms;
+    margin-top: 40px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: translate(0, -5px);
+}
 
 
-/* creditos */
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
 
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4a4a4a;
+    opacity: 0.1;
+    mix-blend-mode: overlay;
 
-
-
-
-
-
-
-
-
+}
 
 
 
