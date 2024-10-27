@@ -28,18 +28,14 @@ require "partials/header.php"
                 <a href="index.php"></a>
             </button>
         </div>
-
         <video muted autoplay loop>
             <source src="video/Star Wars video.mp4" type="video/mp4">
         </video>
-        <audio controls autoplay loop>
-            <source src="star-wars-main-theme-full.mp3" type="audio/mpeg">
-            <source src="star-wars-main-theme-full.ogv" type="audio/ogg">
-        </audio>
-
-
-
         <div class="capa"></div>
+
+        <button class="link" type="inicio">INICIO
+                <a href="index.php"></a>
+        </button>
 
 
     </main>
