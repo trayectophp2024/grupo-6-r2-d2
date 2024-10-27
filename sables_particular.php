@@ -26,13 +26,7 @@ $posiciones = posicion_particular($conn, $tabla, $id);
 
 <main class="container">
 
-<nav aria-label="">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.php"></a></li>
-    <li class="breadcrumb-item"><a href="<?= $tabla ?>"><?= $tabla ?></a></li>
-    <li class="breadcrumb-item active" aria-current="page"><?= $posicion['nombre']  ?></li>
-  </ol>
-</nav>
+
 
     <?php foreach($posiciones as $posicion) {  ?>
     <div class="card mb-3 mx-auto mt-5" style="max-width: 740px;">
