@@ -1,16 +1,21 @@
-<footer class="bg-dark mt-2">
-  <ul class="socials">
+<footer class="bg-dark mt-4 upper-header">
+
+
+  <ul class="socials d-flex justify-content-center">
   
+    <h6>Mas información vistá nuestras Redes: </h6>
+    
     <li><a href="#"><i class="fab fa-facebook-f mt-5"></i></a></li>
     <li><a href="#"><i class="fab fa-twitter mt-5"></i></a></li>
     <li><a href="#"><i class="fab fa-instagram mt-5"></i></a></li>
     <li><a href="#"><i class="fab fa-youtube mt-5"></i></a></li>
     <li><a href="#"><i class="fab fa-linkedin-in mt-5"></i></a></li>
+
+    <h6> & Lucasfilm Ltd. All Rights Reserved</h6>
+    
   </ul>
 
-  <div class="d-flex justify-content-around">
-    <p class="text-white ">Mas información vistá nuestras Redes: </p><P> & Lucasfilm Ltd. All Rights Reserved</P>
-  </div>
+  
 
   
 

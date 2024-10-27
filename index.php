@@ -1,5 +1,6 @@
 <?php require "partials/header.php" ?>
 
+
 <main>
 
     <!-- CARRUSEL -->

@@ -335,11 +335,11 @@ a span:nth-child(5){
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
-    width: 100rem;
+    width: 78rem;
     color:#FCC169
 }
 
-button {
+.but {
     display: inline-block;
     border: none;
     height: 70px;
@@ -354,11 +354,11 @@ button {
     margin-top: 40px;
 }
 
-button:focus {
+.but:focus {
     outline: none;
 }
 
-button:hover {
+.but:hover {
     transform: translate(0, -5px);
 }
 
@@ -397,12 +397,15 @@ video {
 
 .socials {
     list-style: none;
-    display: flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
+    margin-bottom: auto;
 
 }
+
+
 
 .socials li{
     margin: 0 10px;

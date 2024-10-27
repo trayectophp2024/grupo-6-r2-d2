@@ -1,5 +1,5 @@
 <?php
-require "partials/header.php" 
+require "partials/header.php"
 
 ?>
 
@@ -24,20 +24,23 @@ require "partials/header.php"
             </h2>
             <h2 class="lh-lg mb-5">DESARROLLADO POR EL CURSO DE PROGRAMACION: TURNO TARDE <br>
                 CARLOS FATTURINI BARASSI</h2>
-            <button a href="index.php" class="but" type="inicio">INICIO</button>
+            <button class="but" type="inicio">INICIO
+                <a href="index.php"></a>
+            </button>
         </div>
 
         <video muted autoplay loop>
             <source src="video/Star Wars video.mp4" type="video/mp4">
         </video>
-
         <audio controls autoplay loop>
             <source src="star-wars-main-theme-full.mp3" type="audio/mpeg">
-            <source src="star-wars-main-theme-full.ogv" type="audio/ogg"> 
+            <source src="star-wars-main-theme-full.ogv" type="audio/ogg">
         </audio>
-        
+
+
+
         <div class="capa"></div>
-        
+
 
     </main>
 
