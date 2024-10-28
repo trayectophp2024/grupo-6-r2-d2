@@ -395,45 +395,83 @@ video {
 
 
 
-.socials {
-    list-style: none;
-    display:inline-flex;
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    left: auto;
+}
+
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.btn
+{
+    width: 60px;
+    height: 60px;
+    background-color: #fafafa;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
-    margin-bottom: auto;
-
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
 }
-
-
-
-.socials li{
-    margin: 0 10px;
+i.fab
+{
+    font-size: 44px;
 }
-
-.socials a {
-    text-decoration: none;
-    color: #fff;
-
+#fb
+{
+    color: #006fff;
+    text-shadow: 0 0 30px #006fff;
 }
-
-.socials a i {
-    font-size: 1.1rem;
-    transition: color .4s ease;
+#ig
+{
+    color: #ff5f40;
+    text-shadow: 0 0 30px #ff5f40;
 }
-
-.socials a:hover i {
-    color: aqua;
+#tw
+{
+    color: #00acff;
+    text-shadow: 0 0 30px #00acff;
 }
-
-.footer-bottom {
-    background: black;
-    width: 100;
-    padding: 10px 0px;
-    display: flex;
-    
+.btn.fb-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
 }
-
-.footer-bottom p {
-    padding: 10px;
+.btn.fb-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
 }
