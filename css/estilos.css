@@ -396,15 +396,12 @@ video {
 
 
 
+
 .footer-row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.row {
-    display: flex;
-    left: auto;
-}
 
 
 
@@ -415,11 +412,12 @@ video {
     align-items: center;
     height: 100%;
 }
+
 .btn
 {
     width: 60px;
     height: 60px;
-    background-color: #fafafa;
+    background-color: #717171;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,6 +427,10 @@ video {
     transition: all 0.3s;
     border-radius: 10px;
 }
+
+
+
+
 i.fab
 {
     font-size: 44px;

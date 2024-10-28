@@ -33,9 +33,7 @@ require "partials/header.php"
         </video>
         <div class="capa"></div>
 
-        <button class="link">INICIO
-                <a href="index.php"></a>
-        </button>
+        
 
 
     </main>
