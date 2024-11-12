@@ -50,7 +50,7 @@
 
             <a class="nav-link" href="posicion.php?posicion=sables">Sables</a>
 
-            <a class="nav-link" href="posicion.php?posicion=peliculas">Peliculas</a>
+            <a class="nav-link" href="posicion.php?posicion=peliculas">Películas</a>
 
             <a class="nav-link" href="creditos.php">Créditos</a>
 

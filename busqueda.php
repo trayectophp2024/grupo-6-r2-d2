@@ -16,10 +16,13 @@ if ($termino_busqueda) {
 
 
 <?php require "partials/header.php" ?>
-<main class="container">
-    <h1 class="text-center fs-2">Resultados de la búsqueda:</h1>
+<main>
+    <div>
+    <h1 class="align-self-start text-center fs-2">Resultados de la búsqueda:</h1>
+    </div>
 
-    <?php if ($termino_busqueda && !empty($posicion)) { ?>
+<div class=" justify-content-around ">
+    <?php if ($termino_busqueda && !empty($posicion)) {?>
         <div class="row">
             <?php foreach ($posicion as $posicion) { ?>
                 <div class="col-4 mt-4 mb-4">
@@ -27,12 +30,14 @@ if ($termino_busqueda) {
                         <img src="img/ImagenesSW/<?= $posicion['imagen'] ?> " class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title"><?= $posicion['nombre'] ?></h5>
-                            <a href="posicion_particular.php?posicion=<?= $posicion['tabla'] ?>&id=<?= $posicion['id'] ?>" class="btn btn-primary">Ver</a>
+                            <a href="index.php=<?= $posicion['tabla'] ?>&id=<?= $posicion['id'] ?>" class="btn btn-primary">Volver</a>
                         </div>
                     </div>
                 </div>
             <?php } ?>
         </div>
+</div>
+
     <?php } elseif ($termino_busqueda) { ?>
         <p class="text-center text-danger fs-3">No se encontró información de la busqueda: <?= $termino_busqueda ?></p>
 

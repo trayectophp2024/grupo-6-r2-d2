@@ -24,8 +24,9 @@ require "partials/header.php"
             </h2>
             <h2 class="lh-lg mb-5">DESARROLLADO POR EL CURSO DE PROGRAMACION: TURNO TARDE <br>
                 CARLOS FATTURINI BARASSI</h2>
-            <button class="but" type="inicio">INICIO
-                <a href="index.php"></a>
+            <h2 class="lh-lg mb-5">TESTER: Mauricio R Villalba, TURNO MAÑANA</h2>    
+            <button class="but" type="inicio">
+                <a href="index.php " class="text-secondary-emphasis">INICIO</a>
             </button>
         </div>
         <video muted autoplay loop>

@@ -1,30 +1,33 @@
-<footer class="bg-dark mt-4 upper-header">
+<footer class="bg-dark mt-4">
 
-    <div class="footer-row">
+    <div class="row d-flex">
         <div>
-            <h6>Mas información vistá nuestras Redes: </h6>
+            <span></span>
         </div>
 
-
-        <div class="container">
-            <div class="btn fb-btn">
+        <div class="redso d-flex justify-content-center">
+            <a class="btn fb-btn" href="https://www.facebook.com/" target="_blank">
                 <i class="fab fa-facebook" aria-hidden="true" id="fb"></i>
-            </div>
-            <div class="btn ig-btn">
+            </a>
+
+            <a class="btn ig-btn" href="https://www.instagram.com/" target="_blank">
                 <i class="fab fa-instagram" aria-hidden="true" id="ig"></i>
-            </div>
-            <div class="btn tw-btn">
+            </a>
+
+            <a class="btn tw-btn" href="https://x.com/" target="_blank">
                 <i class="fab fa-twitter" aria-hidden="true" id="tw"></i>
-            </div>
+            </a>
+
         </div>
 
-
-
-        <div class="row">
-            <h6> & Lucasfilm Ltd. All Rights Reserved</h6>
+        <div class="">
+            <span></span>
         </div>
+
 
     </div>
+
+
 
 
 

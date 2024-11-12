@@ -348,7 +348,6 @@ a span:nth-child(5){
     width: 70px;
     background-color: #b07a05;
     font-size: 1rem;
-    color: #1c1c1d;
     font-weight: 800;
     transition: 150ms;
     margin-top: 40px;
@@ -388,6 +387,12 @@ video {
     mix-blend-mode: overlay;
 
 }
+
+
+
+
+
+
 
 
 
